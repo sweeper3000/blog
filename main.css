@@ -1,0 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Black+Ops+One|Roboto';
+
+.center {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-family: 'Black Ops One';
+}
+
+p {
+	font-family: 'Roboto';
+}
+
+.post-snippet {
+	background-color: grey;
+	padding: 20px;
+}
