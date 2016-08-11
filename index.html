@@ -5,11 +5,37 @@
  <meta name="charset" content="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link href="main.css" rel="stylesheet">
+ <script src="jquery-3.1.0.min.js"></script>
+ <script src="expand.js"></script>
 </head>
 <body>
  <h1 class="center">Blog</h1>
- <div class="post-snippet">
+ <a id="show-all" href="#">Expand All Posts</a>
+ <div class="post">
+  <div class="post-snippet">
+   <h2>Use Signal</h2>
+   <small>Wednesday August 10, 2016</small>
+   <p><b>I have more comprehensive documentation <a href="https://worldofwebsites.github.io/PrivacyMatters/tools/signal/index.html">here</a></b></p>
+   <p>Signal Private Messenger - by Open Whisper Systems is a simple way to communicate with friends and family securely.</p>
+   <a id="expand-signal" href="#">Read More</a>
+  </div>
+  <div class="post-content" id="signal-01">
+   <p>Signal's goal is to make private communication simple. The app uses the state-of-the-art Signal Protocol, which is designed for security, and speed, so it can operate in one of the most constrained environments in tech - the smartphone. The smartphone has many factors that can influence the app, mainly:</p>
+   <ul>
+    <li>Battery</li>
+    <li>Constant network changes</li>
+   </ul> 
+   <p>The Signal Protocol is designed to work in this environment.</p>
+   <p>The Signal Protocol is so good, its the gold standard of encryption for the experts, because of its forward secrecy, which ensures that if the long-term keys are stolen, the attacker cannot decrypt old conversations -- because the key used to encrypt the message has been discarded. The Signal Protocol is beginning to be widely adopted for other messengers like <a href="https://whispersystems.org/blog/whatsapp-complete/">WhatsApp</a>, <a href="https://whispersystems.org/blog/allo/">Google Allo</a> and <a href="https://whispersystems.org/blog/facebook-messenger/">Facebook Messenger</a>.</p>
+   <p>Signal can be used by anyone, and is used by anyone. From activists at the Republican National Convention in 2016, journalists like those at <em>The Intercept</em>, Edward Snowden, right down to the average person.</p>
+   <p>When Open Whisper Systems says they can't see your messages, they can't. Everything is end-to-end encypted, where you can verify key fingerprints and where the private keys never leave the device. There is even end-to-end encrypted phone calls, and you can verify those too.</p>
+   <p><a href="https://whispersystems.org">Open Whisper Systems</a> does amazing work, crafting a very nice looking secure messenger. If you want to help them out, you can <a href="https://freedom.press/bundle/encryption-tools-journalists">donate</a> via the Freedom of Press Foundation, or <a href="https://github.com/WhisperSystems/Signal-Android/blob/master/CONTRIBUTING.md">contribute</a> by giving code, let them know about bugs, or just spread the word.</p>
+   <p>Signal can be downloaded on Android, IOS, and as a Chrome app linked to an Android phone. Just register your phone number with the server and you can start chatting with your friends and family fast.
+  </div>
+ </div>
+ <div class="post">
   <h2>Hello World</h2>
+  <small>Wednesday August 8, 2016</small>
   <p>This blog will feature my thoughts on privacy, cryptography, and mass surveillance. I am no cryptography expert, but I get the basic idea. This blog will be hosted on GitHub pages. This is good for a number of reasons:
   <ol>
    <li>Free.</li>
