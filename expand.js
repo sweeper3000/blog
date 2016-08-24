@@ -17,4 +17,10 @@ $(document).ready(function(){
 	$("#expand-no-bbm").click(function(){
 		$("#bbm-01").show();
 	});
+
+	// expand "Encryption Under Threat in Europe
+
+	$("#expand-euro-crypto").click(function(){
+		$("#euro-crypto-01").show();
+	});
 });
