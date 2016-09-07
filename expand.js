@@ -23,4 +23,10 @@ $(document).ready(function(){
 	$("#expand-euro-crypto").click(function(){
 		$("#euro-crypto-01").show();
 	});
+
+	// expand "The NSA Fight Must be the American People's Fight"
+
+	$("#expand-nsa-stopped-by-people").click(function(){
+		$("#nsa-halt-01").show();
+	});
 });
