@@ -29,4 +29,10 @@ $(document).ready(function(){
 	$("#expand-nsa-stopped-by-people").click(function(){
 		$("#nsa-halt-01").show();
 	});
+
+	// expand "Don't You Hate it When Something Comes Back Alive When it Should be Dead?"
+
+	$("#expand-dead-bills-come-alive").click(function(){
+		$("#dead-bill-alive-01").show();
+	});
 });
