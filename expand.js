@@ -35,4 +35,10 @@ $(document).ready(function(){
 	$("#expand-dead-bills-come-alive").click(function(){
 		$("#dead-bill-alive-01").show();
 	});
+
+	// expand "After Trump: Interest in Encrypted Services Spikes
+
+	$("#expand-trump-crypto").click(function(){
+		$("#trump-crypto-01").show();
+	});
 });
