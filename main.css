@@ -57,6 +57,10 @@ code {
 	display: none;
 }
 
+#crypto-predictions-01 {
+	display: none;
+}
+
 #show-all {
 	background-color: #f93920;
 	padding: 5px;

@@ -36,9 +36,15 @@ $(document).ready(function(){
 		$("#dead-bill-alive-01").show();
 	});
 
-	// expand "After Trump: Interest in Encrypted Services Spikes
+	// expand "After Trump: Interest in Encrypted Services Spikes"
 
 	$("#expand-trump-crypto").click(function(){
 		$("#trump-crypto-01").show();
+	});
+
+	// expand "Predictions for Crypto in 2017"
+
+	$("#expand-crypto-predictions").click(function(){
+		$("#crypto-predictions-01").show();
 	});
 });
